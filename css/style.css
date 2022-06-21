@@ -138,40 +138,22 @@ html {
 }
 
 body {
-  background-color: transparent;
+  background-color: #f2f2f2;
   font-family: "Libre Franklin", sans-serif;
   height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
-}
-
-body main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
 }
 
 .container {
-  padding: 32px;
+  max-width: 640px;
+  padding: 0 32px;
 }
 
 @media (max-width: 375px) {
   .container {
-    padding: 24px;
+    padding: 12px;
   }
-}
-
-.show {
-  visibility: visible;
-  opacity: 100%;
 }
 
 .tooltip {
@@ -204,7 +186,7 @@ body main {
   font-weight: 700;
   line-height: 19px;
   padding: 12px 24px;
-  background: transparent;
+  background: #f2f2f2;
   border-radius: 15px;
   text-align: center;
   color: white;
@@ -220,7 +202,7 @@ body main {
   margin-left: -10px;
   border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent transparent transparent;
+  border-color: #f2f2f2 transparent transparent transparent;
 }
 
 /*!
