@@ -207,6 +207,7 @@ body {
 }
 
 .active {
+  display: block !important;
   opacity: 100 !important;
   visibility: visible !important;
 }
@@ -10631,9 +10632,9 @@ main {
           flex: 1 1 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 475px) {
   .subscribtion__form fieldset {
-    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -10660,7 +10661,7 @@ main {
   background-color: #7196f5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 475px) {
   .subscribtion__form button {
     max-width: none;
   }
@@ -10706,7 +10707,7 @@ main {
   transition: all 0.3s ease 0s;
   opacity: 0;
   visibility: hidden;
-  margin-bottom: 20px;
+  display: none;
 }
 
 @media (max-width: 475px) {

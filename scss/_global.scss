@@ -58,6 +58,7 @@ body {
   }
 }
 .active {
+  display: block !important;
   opacity: 100 !important;
   visibility: visible !important;
 }
