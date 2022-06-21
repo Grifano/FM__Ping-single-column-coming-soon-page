@@ -1,0 +1,15 @@
+// Colors
+$bodyBg: transparent;
+
+$primary: hsl(223, 87%, 63%);
+
+$white: hsl(0, 0%, 100%);
+$gray: hsl(0, 0%, 59%);
+$paleBlue: hsl(223, 100%, 88%);
+$lightRed: hsl(354, 100%, 66%);
+$verydarkblue: hsl(209, 33%, 12%);
+
+// Typeface
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+$fontFamily: "Libre Franklin", sans-serif;
+$mainFontSize: 20px;
