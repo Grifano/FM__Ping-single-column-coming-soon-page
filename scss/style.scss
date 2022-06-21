@@ -1,9 +1,6 @@
 @import "./reset";
 @import "./vars";
 @import "./global";
-@import "./fontawesome/fontawesome.scss";
-@import "./fontawesome/solid.scss";
-@import "./fontawesome/brands.scss";
 
 // Maiin style
 main {
@@ -162,16 +159,14 @@ main {
   width: 100%;
   margin-bottom: 25px;
   a {
-    color: $primary;
-    font-size: 14px;
-    border: 1px solid #e4ebfd;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      transform: scale(1.3);
+    }
   }
 }
 footer {
