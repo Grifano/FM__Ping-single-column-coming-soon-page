@@ -13,8 +13,9 @@ body {
 .container {
   max-width: 640px;
   padding: 0 32px;
-  @media (max-width: 375px) {
-    padding: 12px;
+  margin: auto;
+  @media (max-width: 475px) {
+    padding: 0 28px;
   }
 }
 
@@ -55,4 +56,8 @@ body {
       border-color: $bodyBg transparent transparent transparent;
     }
   }
+}
+.active {
+  opacity: 100 !important;
+  visibility: visible !important;
 }

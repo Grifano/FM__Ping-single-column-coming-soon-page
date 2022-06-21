@@ -72,6 +72,7 @@ I hope that such amzing tools like [Frontend Mentor](https://www.frontendmentor.
 [Frontend Mentor](https://www.frontendmentor.io/) - Get a challenge and try to make them as close to a mockup as you can.  
 [Uxcel](https://uxcel.com?invite=EE4PBID94EEH) - improv UX/UI Design skills, by reading the article and check your new knowledge by passing a quiz.  
 [freeCodeCamp](https://www.freecodecamp.org/learn) - Free learning platform for learning programing, as Frontend, Backend, Web technology, and more.
+[Labeling Controls](https://www.w3.org/WAI/tutorials/forms/labels/)
 
 ## Author
 
