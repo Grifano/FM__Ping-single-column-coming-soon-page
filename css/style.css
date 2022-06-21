@@ -429,6 +429,7 @@ main {
 }
 
 .social a {
+  font-size: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
